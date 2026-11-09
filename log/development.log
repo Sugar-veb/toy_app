@@ -1,0 +1,8 @@
+Started GET "/" for 77.79.156.71 at 2026-11-09 01:50:12 +0000
+Cannot render console from 77.79.156.71! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3294)
+
+
