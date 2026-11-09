@@ -15,4 +15,6 @@ Rails.application.configure do
   config.active_record.verbose_query_logs = true
   config.assets.quiet = true
   config.hosts.clear
+    # Разрешаем запросы с любых Origin (для Codespaces)
+  config.action_controller.forgery_protection_origin_check = false
 end
